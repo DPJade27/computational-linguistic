@@ -1,0 +1,94 @@
+**********OUTPUT DEL PROGRAMMA 2**********
+
+-----ESTRAZIONE DEI 10 PART-OF-SPEECH PIÙ FREQUENTI-----
+i 10 pos più frequenti del corpus sull'educazione scolastica in Islanda nel file iceland.txt è: [('NN', 934), ('DT', 690), ('IN', 588), ('NNS', 555), ('JJ', 364), ('CC', 244), ('.', 222), ('VB', 198), ('VBZ', 191), ('TO', 189)]
+i 10 pos più frequenti del corpus sull'educazione scolastica in Arabia Saudita nel file saudiarabia.txt è: [('NN', 910), ('IN', 667), ('DT', 631), ('NNS', 553), ('JJ', 469), ('VB', 329), ('NNP', 312), ('.', 283), ('RB', 229), ('TO', 201)]
+
+-----ESTRAZIONE DEI 10 BIGRAMMI DI PART-OF-SPEECH PIÙ FREQUENTI-----
+ i 10 bigrammi più frequnti di iceland.txt sono: [(('.', 'The'), 79), (('the', 'school'), 71), (('of', 'the'), 57), ((',', 'the'), 50), (('in', 'the'), 39), (('to', 'the'), 35), (('the', 'learners'), 35), (('’', 's'), 27), (('and', 'the'), 27), (('According', 'to'), 24)]
+i 10 bigrammi più frequenti di saudiarabia.txt sono: [(('.', 'The'), 92), (('in', 'the'), 57), ((',', 'the'), 46), ((')', '.'), 41), (('Saudi', 'Arabia'), 39), (('education', 'system'), 34), (('of', 'the'), 25), (('1', ')'), 24), (('the', 'students'), 24), (('the', 'country'), 22)]
+
+-----ESTRAZIONE DEI 10 TRIGRAMMI DI PART-OF-SPEECH PIÙ FREQUENTI-----
+i 10 trigrammi più frequenti di iceland.txt sono: [(('.', 'According', 'to'), 21), (('.', 'The', 'school'), 18), (('According', 'to', 'the'), 14), (('as', 'well', 'as'), 13), (('of', 'the', 'school'), 13), ((',', 'the', 'school'), 11), (('.', 'Besides', ','), 10), (('the', 'learners', '.'), 8), (('in', 'the', 'school'), 8), (('Besides', ',', 'the'), 8)]
+i 10 trigrammi più frequenti di saudiarabia.txt sono: [(('1', ')', '.'), 23), ((')', '.', 'The'), 18), (('the', 'education', 'system'), 14), (('in', 'Saudi', 'Arabia'), 12), (('.', 'The', 'government'), 11), (('country', '’', 's'), 8), ((',', 'the', 'government'), 8), (('a', 'chance', 'to'), 7), (('the', 'country', '’'), 7), (('Saudi', 'Arabia', 'education'), 7)]
+
+-----ESTRAZIONE DEI 20 AGGETTIVI PIÙ FREQUENTI-----
+i 20 aggettivi più frequenti di iceland.txt sono: [('other', 25), ('important', 12), ('secondary', 11), ('more', 10), ('social', 9), ('European', 9), ('upper', 9), ('national', 9), ('compulsory', 8), ('local', 8), ('many', 8), ('such', 7), ('individual', 7), ('respective', 7), ('best', 6), ('educational', 6), ('learning', 6), ('various', 6), ('instructional', 6), ('unique', 5)]
+i 20 aggettivi più frequenti di saudiarabia.txt sono: [('educational', 24), ('higher', 12), ('other', 11), ('religious', 10), ('such', 10), ('useful', 9), ('scientific', 9), ('modern', 9), ('elementary', 8), ('more', 8), ('secondary', 7), ('different', 7), ('private', 6), ('first', 6), ('high', 6), ('primary', 6), ('global', 6), ('s', 6), ('international', 6), ('foreign', 6)]
+
+-----ESTRAZIONE DEI 20 AVVERBI PIÙ FREQUENTI-----
+i 20 avverbi più frequenti di iceland.txt sono: [('also', 43), ('as', 13), ('well', 13), ('not', 12), ('very', 10), ('However', 7), ('so', 7), ('therefore', 7), ('more', 6), ('normally', 5), ('better', 5), ('always', 4), ('even', 4), ('particularly', 3), ('much', 3), ('effectively', 2), ('continuously', 2), ('Thus', 2), ('especially', 2), ('Finally', 2)]
+i 20 avverbi più frequenti di saudiarabia.txt sono: [('not', 45), ('also', 23), ('abroad', 15), ('well', 11), ('Furthermore', 8), ('as', 7), ('Moreover', 7), ('Therefore', 6), ('only', 5), ('together', 5), ('even', 5), ('so', 5), ('especially', 5), ('Thus', 4), ('Consequently', 3), ('However', 3), ('very', 3), ('freely', 3), ('often', 3), ('thus', 3)]
+
+-----ESTRAZIONE DEI 20 BIGRAMMI COMPOSTI DA AGGETTIVO E SOSTANTIVO----
+-----CALCOLO FREQUENZA MASSIMA CON RELATIVA FREQUENZA-----
+la frequenza massima del file iceland.txt è: ((('European', 'JJ'), ('Commission', 'NNP')), 9)
+la frequenza massima del file saudiarabia.txt è: ((('educational', 'JJ'), ('system', 'NN')), 13)
+
+-----CALCOLO PROBABILITÀ CONDIZIONATA MASSIMA CON RELATIVA PROBABILITÀ-----
+la probabilità condizionata massima del file iceland.txt è: (((('European', 'JJ'), ('Commission', 'NNP')), 9), 'relativa Probabilità Condizionata:', 1.0)
+la probabilità condizionata massima del file saudiarabia.txt è: (((('traditional', 'JJ'), ('system', 'NN')), 3), 'relativa Probabilità Condizionata:', 1.0)
+
+-----CALCOLO FORZA ASSOCIATIVA MASSIMA, CALCOLATA IN TERMINI DI LOCAL MUTUAL INFORMATION, CON RELATIVA FORZA ASSOCIATIVA-----
+la Local Mutual Information del file iceland.txt è: (('European', 'JJ'), 'relativo MI:', 0.015075632707616242)
+la Local Mutual Information del file saudiarabia.txt è: (('educational', 'JJ'), 'relativo MI:', 0.012564855940100499)
+
+-----ESTRAZIONE DELLE FRASI CON ALMENO 6 TOKEN E PIÙ CORTA DI 25 TOKEN, DOVE OGNI TOKEN HA UNA FREQUENZA MAGGIORE DI 3-----
+-----CON LA MEDIA DELLA DISTRIBUZIONE DI FREQUENZA PIÙ ALTA, PIÙ BASSA E LA DISTRIBUZIONE MEDIA DI FREQUENZA-----
+di seguito la distribuzione di frequenza del file: iceland.txt
+media distribuzione più alta: 1.3076923076923077 
+distribuzione media di frequenza: 10.315217391304348 
+la frase: At the end of the programme, the teacher and learner evaluate achievement of the objectives.
+media distribuzione più bassa: 1.0 
+distribuzione media di frequenza: 10.492537313432836 
+la frase: It is also the parent’s role to ensure that children attend school.
+
+di seguito la distribuzione di frequenza del file: saudiarabia.txt
+media distribuzione più alta: 1.3333333333333333 
+distribuzione media di frequenza: 12.521739130434783 
+la frase: Three, centralized system and four, separate institutions and education for women and women.
+media distribuzione più bassa: 1.0 
+distribuzione media di frequenza: 8.017241379310345 
+la frase: 1) Why is the education system in Saudi Arabia not useful?
+
+-----CON PROBABILITÀ PIÙ ALTA CALCOLATA ATTRAVERSO UN MODELLO DI MARKOV DI ORDINE 2-----
+di seguito Markov del 2° ordine del file: iceland.txt
+There are student leaders in various respective levels of leadership including group leaders, class leaders and other capacities. relativa probabilità: 0.007813913004159885
+
+di seguito Markov del 2° ordine del file: saudiarabia.txt
+Students also encounter a different culture. relativa probabilità: 1.0001653986106518
+
+-----CLASSIFICAZIONE DELLE ENTITÀ NOMINATE ESTRAENDO I 15 NOMI PROPRI DI PERSONA PIÙ FREQUENTI, ORDINATI PER FREQUENZA-----
+di seguito l'elenco dei primi 15 nomi propri di persona più frequenti del file: iceland.txt
+Il 1 ° nome proprio di persona più frequente è"Culture	 con frequenza 3
+Il 2 ° nome proprio di persona più frequente è"Gardner	 con frequenza 3
+Il 3 ° nome proprio di persona più frequente è"History	 con frequenza 2
+Il 4 ° nome proprio di persona più frequente è"Vígþórsdóttir	 con frequenza 2
+Il 5 ° nome proprio di persona più frequente è"School	 con frequenza 2
+Il 6 ° nome proprio di persona più frequente è"Nordlingaskoli	 con frequenza 2
+Il 7 ° nome proprio di persona più frequente è"BackgroundInformation	 con frequenza 1
+Il 8 ° nome proprio di persona più frequente è"Physics	 con frequenza 1
+Il 9 ° nome proprio di persona più frequente è"Biology	 con frequenza 1
+Il 10 ° nome proprio di persona più frequente è"Economics	 con frequenza 1
+Il 11 ° nome proprio di persona più frequente è"ConstructivismTheoryOne	 con frequenza 1
+Il 12 ° nome proprio di persona più frequente è"Purpose	 con frequenza 1
+Il 13 ° nome proprio di persona più frequente è"Scope	 con frequenza 1
+Il 14 ° nome proprio di persona più frequente è"BackgroundInformationNordlingaskoli	 con frequenza 1
+Il 15 ° nome proprio di persona più frequente è"SifVígþórsdóttir	 con frequenza 1
+
+di seguito l'elenco dei primi 15 nomi propri di persona più frequenti del file: saudiarabia.txt
+Il 1 ° nome proprio di persona più frequente è"Arabia	 con frequenza 10
+Il 2 ° nome proprio di persona più frequente è"Abdullah	 con frequenza 5
+Il 3 ° nome proprio di persona più frequente è"ArabiaEducational	 con frequenza 3
+Il 4 ° nome proprio di persona più frequente è"SaudiArabia	 con frequenza 2
+Il 5 ° nome proprio di persona più frequente è"Arabic	 con frequenza 2
+Il 6 ° nome proprio di persona più frequente è"Bronson	 con frequenza 2
+Il 7 ° nome proprio di persona più frequente è"AbdullahUniversity	 con frequenza 2
+Il 8 ° nome proprio di persona più frequente è"Tahdeer	 con frequenza 1
+Il 9 ° nome proprio di persona più frequente è"Al	 con frequenza 1
+Il 10 ° nome proprio di persona più frequente è"Institute	 con frequenza 1
+Il 11 ° nome proprio di persona più frequente è"AdultEducation	 con frequenza 1
+Il 12 ° nome proprio di persona più frequente è"Islam	 con frequenza 1
+Il 13 ° nome proprio di persona più frequente è"Mohammed	 con frequenza 1
+Il 14 ° nome proprio di persona più frequente è"Girls	 con frequenza 1
+Il 15 ° nome proprio di persona più frequente è"Knowledge	 con frequenza 1
